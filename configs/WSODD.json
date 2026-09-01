@@ -1,0 +1,42 @@
+{
+    "train": {
+        "name": "WSODD",
+        "imgsz": 1920,
+        "epochs": 300,
+        "batch": 0.95,
+        "patience": 30,
+        "cache": "disk",
+        "deterministic": true,
+        "verbose": true,
+        "val": true      
+    },
+    "test": {
+        "name": "WSODD",
+        "imgsz": 1920,
+        "conf": 0.5,
+        "iou": 0.25,
+        "show_labels": true,
+        "show_conf": true,
+        "show_boxes": true
+    },
+    "eval": {
+        "name": "WSODD",
+        "res": [1920, 1080],
+        "translation": {
+            "0": 0,
+            "1": 2,
+            "2": 3,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": 1,
+            "11": 3,
+            "12": null,
+            "13": null
+        }
+    }
+}

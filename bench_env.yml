@@ -1,0 +1,19 @@
+name: bench
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+  - sfe1ed40
+  - esri
+dependencies:
+  - python>=3.12 # pinned just for solve speed, pretty sure its the only sol atm anyway
+  - pytorch-gpu>=2.7.1,<3
+  - torchvision #==0.22 # Conda was solving dependencies incorrectly, a specific version shouldn't need specified
+  - torchaudio
+  - cuda-version>=12.9
+  - pip
+  - ultralytics
+  - tqdm
+  - scipy # For converting SingaporeMaritime dataset only
+  - stonesoup # For running zoom aware tracking only
+  # - seaborn # Just used for graphing dataset, you don't need this.

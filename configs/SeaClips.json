@@ -1,0 +1,35 @@
+{
+    "train": {
+        "name": "SeaClips",
+        "imgsz": 1200,
+        "epochs": 300,
+        "batch": 0.95,
+        "patience": 30,
+        "cache": "disk",
+        "deterministic": true,
+        "verbose": true,
+        "val": true      
+    },
+    "test": {
+        "name": "SeaClips",
+        "imgsz": 1200,
+        "conf": 0.5,
+        "iou": 0.25,
+        "show_labels": true,
+        "show_conf": true,
+        "show_boxes": true
+    },
+    "eval": {
+        "name": "SeaClips",
+        "res": [1200, 960],
+        "translation": {
+            "0": null,
+            "1": 0,
+            "2": 3,
+            "3": 3,
+            "4": 0,
+            "5": 1,
+            "6": 2
+        }
+    }
+}

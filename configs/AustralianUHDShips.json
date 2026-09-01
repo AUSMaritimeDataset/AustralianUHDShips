@@ -1,0 +1,41 @@
+{
+    "train": {
+        "name": "AustralianUHDShips",
+        "imgsz": 640,
+        "epochs": 300,
+        "batch": 0.95,
+        "patience": 30,
+        "cache": "disk",
+        "deterministic": true,
+        "verbose": true,
+        "val": true      
+    },
+    "test": {
+        "name": "AustralianUHDShips",
+        "imgsz": 640,
+        "conf": 0.5,
+        "iou": 0.25,
+        "show_labels": true,
+        "show_conf": true,
+        "show_boxes": true
+    },
+    "track": {
+        "name": "AustralianUHDShips",
+        "target_res": [640, 480]
+    },
+    "eval": {
+        "name": "AustralianUHDShips",
+        "res": [3840, 2160],
+        "translation": null
+    },
+    "ref_method": {
+        "detection_prob": 0.75,
+        "motion_covar_falloff": 0.0005,
+        "measurement_sigma": 0.01,
+        "initial_pos_sigma": 0.01,
+        "initial_vel_sigma": 0.01,
+        "initial_acc_sigma": 0.01,
+        "noise_density": 0.1,
+        "clamp_vel": 0.001
+    }
+}

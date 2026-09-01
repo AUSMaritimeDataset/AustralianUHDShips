@@ -1,12 +1,12 @@
 # Australian UHD Ships
 
-Gday! This is the official repository for Australian UHD Ships. It contains the implementation of our paper: [AUS: An Egocentric Maritime Zoom Aware Tracking Benchmark](https://openreview.net/forum?id=EgGQVd5M8a). The repository also holds the [supplementary material for our paper](TrackingImplmentation.pdf)
+Gday! This is the official repository for Australian UHD Ships. It contains the implementation of our paper: [AUS: An Egocentric Maritime Zoom Aware Tracking Benchmark](https://openreview.net/forum?id=EgGQVd5M8a). The repository also holds the [supplementary material for our paper](TrackingImplementation.pdf)
 
 ## Download our Dataset
 Australian UHD Ships is too large (>100GB) to be shared in this repo. It will be shared upon request via the review system while our paper is under review. Once our paper is accepted, we will provide an institutional cloud drive link here.
 
 ## Supplementary Material
-A description of our zoom aware tracking algorithm is given [here](TrackingImplmentation.pdf)
+A description of our zoom aware tracking algorithm is given [here](TrackingImplementation.pdf)
 
 ## Run Benchmark
 This section describes how to replicate the results of our paper. The pipeline should be easy to extend to your own datasets and models. All code snippets assume they are being run from the root of this repository. Our environment is tested on an x86 Ubuntu 24.04 Desktop.
